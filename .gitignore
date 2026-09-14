@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+template_repo/
+rocket_anime.pdf
+dist/preview.svg
