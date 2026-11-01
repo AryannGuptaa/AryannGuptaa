@@ -1,5 +1,3 @@
-# Aryan Gupta
-
 <div align="center">
   <img
     src="./assets/aryan-hero.svg"
@@ -8,12 +6,34 @@
   >
 </div>
 
-I’m a computer science student at **Manipal Institute of Technology Bengaluru** and a software engineer interested in
-the systems most people never see—but rely on every day.
+<p align="center">
+  <a href="https://aryannguptaa.vercel.app/"><strong>PORTFOLIO</strong></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/aryannguptaa2005/"><strong>LINKEDIN</strong></a> &nbsp;·&nbsp;
+  <a href="mailto:aryan.gupta16105@gmail.com"><strong>EMAIL</strong></a>
+</p>
 
-My work spans real-time WAF analytics, hardened container infrastructure, autonomous SOC workflows, secure developer
-tools, and AI-powered testing. I look for difficult operational problems that can be made dramatically simpler, then
-build the software that makes that simplification hold up outside the demo.
+<div align="center">
+  <img src="./assets/aryan-about.svg" width="100%" alt="About Aryan Gupta and his engineering focus">
+</div>
+
+I’m a computer science student at **Manipal Institute of Technology Bengaluru** and a software engineer interested in
+the systems most people never see—but rely on every day. My work spans real-time WAF analytics, hardened container
+infrastructure, autonomous SOC workflows, secure developer tools, and AI-powered testing.
+
+<div align="center">
+  <img src="./assets/aryan-impact.svg" width="100%" alt="Verified engineering impact and selected projects">
+</div>
+
+<details>
+<summary><strong>Project details and working links</strong></summary>
+
+| Project | What it does | Stack |
+|---|---|---|
+| **SecureIDE** | Security-native IDE with inline SAST, CVE auditing, secret detection, OWASP checks, and LLM-guided remediation. [View case study →](https://aryannguptaa.vercel.app/#projects) | Python · LLM systems · SAST · Plugin architecture |
+| **IronTest** | Autonomous QA and DevOps pipeline that turns Jira stories into web and mobile test suites. **Winner — Atos Srijan 2026 Hackathon.** [View case study →](https://aryannguptaa.vercel.app/#projects) | Python · CI/CD · Agentic AI · Test automation |
+| **Portfolio system** | Interactive portfolio with a security lab, visitor postcards, and an editorial developer profile. [Visit live →](https://aryannguptaa.vercel.app/) | React · Framer Motion · Supabase · WebGL |
+
+</details>
 
 ## Experience
 
@@ -29,22 +49,6 @@ utilization by **44%** and reduced cloud spend by **$5,400 per month**.
 **Hobbiate — Software Engineer Intern** · *May – Aug 2025*<br>
 Shipped production improvements across identity, APIs, and backend services, including an OTP verification redesign
 that reduced end-to-end verification time by **62%**.
-
-## Selected work
-
-| Project | What it does | Stack |
-|---|---|---|
-| **SecureIDE** | Security-native IDE with inline SAST, CVE auditing, secret detection, OWASP checks, and LLM-guided remediation. [View case study →](https://aryannguptaa.vercel.app/#projects) | Python · LLM systems · SAST · Plugin architecture |
-| **IronTest** | Autonomous QA and DevOps pipeline that turns Jira stories into web and mobile test suites. **Winner — Atos Srijan 2026 Hackathon.** [View case study →](https://aryannguptaa.vercel.app/#projects) | Python · CI/CD · Agentic AI · Test automation |
-| **Portfolio system** | Interactive portfolio with a security lab, visitor postcards, and an editorial developer profile. [Visit live →](https://aryannguptaa.vercel.app/) | React · Framer Motion · Supabase · WebGL |
-
-## Verified impact
-
-- **5× faster** security-data retrieval through real-time WAF and infrastructure visibility.
-- **50+** production Docker images migrated to hardened bases and **200+ vulnerabilities** remediated.
-- **45% reduction** in malicious bot traffic and attacks alongside automated SOC investigation.
-- **450+** data structures and algorithms problems solved across LeetCode, CodeStudio, and HackerRank.
-- **National hackathon winner** — Atos Srijan 2026, for IronTest.
 
 ## Stack and capabilities
 
@@ -65,12 +69,6 @@ that reduced end-to-end verification time by **62%**.
 </div>
 
 <sub>The graph above is generated from public GitHub contribution data. Private activity may not appear.</sub>
-
-## Connect
-
-[**Portfolio**](https://aryannguptaa.vercel.app/) ·
-[**LinkedIn**](https://www.linkedin.com/in/aryannguptaa2005/) ·
-[**Email**](mailto:aryan.gupta16105@gmail.com)
 
 <div align="center">
   <img src="./assets/aryan-footer.svg" width="100%" alt="Build with intent">

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="agImpactTitle agImpactDesc">
+  <title id="agImpactTitle">Verified impact and selected projects</title>
+  <desc id="agImpactDesc">Verified engineering outcomes and two selected projects from Aryan Gupta's resume.</desc>
+  <defs>
+    <linearGradient id="agImpactBg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10070C"/><stop offset="1" stop-color="#190B12"/></linearGradient>
+    <linearGradient id="agImpactCard" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2A0D1A"/><stop offset="1" stop-color="#451126"/></linearGradient>
+    <linearGradient id="agImpactAccent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#701A3D"/><stop offset=".55" stop-color="#C77B9B"/><stop offset="1" stop-color="#E5B5C7"/></linearGradient>
+    <pattern id="agImpactGrid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#C77B9B" stroke-opacity=".045"/></pattern>
+    <filter id="agImpactGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>.im-mono{font:500 10px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.8px}.im-value{font:500 46px Georgia,'Times New Roman',serif}.im-label{font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.im-title{font:500 43px Georgia,'Times New Roman',serif}.im-project{font:500 34px Georgia,'Times New Roman',serif}.im-body{font:400 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.im-scan{animation:imScan 5s ease-in-out infinite}@keyframes imScan{0%,100%{transform:translateX(0);opacity:.25}50%{transform:translateX(850px);opacity:1}}@media(prefers-reduced-motion:reduce){.im-scan{animation:none}}</style>
+  <rect x="1" y="1" width="1198" height="648" rx="24" fill="url(#agImpactBg)" stroke="#451126"/>
+  <rect x="1" y="1" width="1198" height="648" rx="24" fill="url(#agImpactGrid)"/>
+  <text x="50" y="57" fill="#C77B9B" class="im-mono">02 / VERIFIED IMPACT</text>
+  <text x="50" y="111" fill="#F8F0F3" class="im-title">Signals, not vanity metrics.</text>
+  <text x="1150" y="63" text-anchor="end" fill="#701A3D" class="im-mono">RESUME-BACKED · 2026</text>
+  <rect x="50" y="136" width="1100" height="2" fill="url(#agImpactAccent)"/>
+  <rect class="im-scan" x="50" y="134" width="220" height="6" rx="3" fill="#F8F0F3" filter="url(#agImpactGlow)"/>
+
+  <g transform="translate(50 166)">
+    <g><rect width="202" height="124" rx="12" fill="#190B12" stroke="#451126"/><text x="18" y="28" fill="#C77B9B" class="im-mono">RETRIEVAL</text><text x="18" y="78" fill="#F8F0F3" class="im-value">5×</text><text x="18" y="104" fill="#E5B5C7" class="im-label">faster security data</text></g>
+    <g transform="translate(224)"><rect width="202" height="124" rx="12" fill="#190B12" stroke="#451126"/><text x="18" y="28" fill="#C77B9B" class="im-mono">CONTAINERS</text><text x="18" y="78" fill="#F8F0F3" class="im-value">200+</text><text x="18" y="104" fill="#E5B5C7" class="im-label">vulnerabilities remediated</text></g>
+    <g transform="translate(448)"><rect width="202" height="124" rx="12" fill="#190B12" stroke="#451126"/><text x="18" y="28" fill="#C77B9B" class="im-mono">BOT TRAFFIC</text><text x="18" y="78" fill="#F8F0F3" class="im-value">45%</text><text x="18" y="104" fill="#E5B5C7" class="im-label">reduction in attacks</text></g>
+    <g transform="translate(672)"><rect width="202" height="124" rx="12" fill="#190B12" stroke="#451126"/><text x="18" y="28" fill="#C77B9B" class="im-mono">PROBLEM SOLVING</text><text x="18" y="78" fill="#F8F0F3" class="im-value">450+</text><text x="18" y="104" fill="#E5B5C7" class="im-label">DSA problems solved</text></g>
+    <g transform="translate(896)"><rect width="204" height="124" rx="12" fill="#190B12" stroke="#451126"/><text x="18" y="28" fill="#C77B9B" class="im-mono">CLOUD SPEND</text><text x="18" y="78" fill="#F8F0F3" class="im-value">$5.4k</text><text x="18" y="104" fill="#E5B5C7" class="im-label">reduced per month</text></g>
+  </g>
+
+  <text x="50" y="345" fill="#C77B9B" class="im-mono">03 / SELECTED WORK</text>
+  <g transform="translate(50 372)">
+    <rect width="532" height="220" rx="18" fill="url(#agImpactCard)" stroke="#701A3D"/>
+    <text x="26" y="35" fill="#E5B5C7" class="im-mono">SECURITY-NATIVE DEVELOPMENT</text>
+    <text x="26" y="88" fill="#F8F0F3" class="im-project">SecureIDE</text>
+    <text x="26" y="126" fill="#E5B5C7" class="im-body">Inline SAST, CVE auditing, secret detection,</text><text x="26" y="151" fill="#E5B5C7" class="im-body">OWASP checks, and LLM-guided remediation.</text>
+    <text x="26" y="194" fill="#C77B9B" class="im-mono">PYTHON · LLM · SAST · PLUGINS</text>
+    <path d="M464 40h38v38M502 40l-52 52" fill="none" stroke="#C77B9B" stroke-width="2"/>
+  </g>
+  <g transform="translate(618 372)">
+    <rect width="532" height="220" rx="18" fill="url(#agImpactCard)" stroke="#701A3D"/>
+    <text x="26" y="35" fill="#E5B5C7" class="im-mono">ATOS SRIJAN 2026 · WINNER</text>
+    <text x="26" y="88" fill="#F8F0F3" class="im-project">IronTest</text>
+    <text x="26" y="126" fill="#E5B5C7" class="im-body">Autonomous QA pipeline turning Jira stories</text><text x="26" y="151" fill="#E5B5C7" class="im-body">into production-ready web and mobile tests.</text>
+    <text x="26" y="194" fill="#C77B9B" class="im-mono">PYTHON · CI/CD · AGENTIC AI · QA</text>
+    <path d="M464 40h38v38M502 40l-52 52" fill="none" stroke="#C77B9B" stroke-width="2"/>
+  </g>
+</svg>

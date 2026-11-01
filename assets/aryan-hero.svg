@@ -1,104 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="agHeroTitle agHeroDesc">
-  <title id="agHeroTitle">Aryan Gupta - software engineer working across security, infrastructure, and applied AI</title>
-  <desc id="agHeroDesc">A burgundy technical grid with a signal path, orbital geometry, and Aryan Gupta's name.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="agHero2Title agHero2Desc">
+  <title id="agHero2Title">Aryan Gupta — security-focused software engineer</title>
+  <desc id="agHero2Desc">A burgundy editorial profile card with Aryan's portrait, role, education, work, and animated security signal.</desc>
   <defs>
-    <linearGradient id="agHeroBackground" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#10070C"/>
-      <stop offset="0.55" stop-color="#190B12"/>
-      <stop offset="1" stop-color="#2A0D1A"/>
-    </linearGradient>
-    <radialGradient id="agHeroGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(610 190) rotate(90) scale(230 520)">
-      <stop stop-color="#701A3D" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="agHeroSignal" x1="150" y1="330" x2="1050" y2="100" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#701A3D"/>
-      <stop offset="0.48" stop-color="#C77B9B"/>
-      <stop offset="1" stop-color="#E5B5C7"/>
-    </linearGradient>
-    <linearGradient id="agHeroUnderline" x1="425" y1="0" x2="775" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#701A3D" stop-opacity="0"/>
-      <stop offset="0.25" stop-color="#C77B9B"/>
-      <stop offset="0.75" stop-color="#E5B5C7"/>
-      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="agHeroGrid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#E5B5C7" stroke-opacity="0.075" stroke-width="1"/>
-      <circle cx="0" cy="0" r="1.2" fill="#C77B9B" fill-opacity="0.18"/>
-    </pattern>
-    <filter id="agHeroSoftGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="agHeroFineGlow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <mask id="agHeroEdgeFade">
-      <linearGradient id="agHeroMaskGradient" x1="0" y1="0" x2="1" y2="0">
-        <stop stop-color="white" stop-opacity="0"/>
-        <stop offset="0.08" stop-color="white"/>
-        <stop offset="0.92" stop-color="white"/>
-        <stop offset="1" stop-color="white" stop-opacity="0"/>
-      </linearGradient>
-      <rect width="1200" height="420" fill="url(#agHeroMaskGradient)"/>
-    </mask>
-    <clipPath id="agHeroFrameClip"><rect x="18" y="18" width="1164" height="384" rx="26"/></clipPath>
+    <linearGradient id="agHero2Bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10070C"/><stop offset=".56" stop-color="#190B12"/><stop offset="1" stop-color="#451126"/></linearGradient>
+    <radialGradient id="agHero2Aura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(770 205) rotate(138) scale(430 650)"><stop stop-color="#9B315F" stop-opacity=".43"/><stop offset="1" stop-color="#9B315F" stop-opacity="0"/></radialGradient>
+    <linearGradient id="agHero2Line" x1="75" y1="0" x2="1125" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#701A3D"/><stop offset=".48" stop-color="#E5B5C7"/><stop offset="1" stop-color="#701A3D"/></linearGradient>
+    <pattern id="agHero2Grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#E5B5C7" stroke-opacity=".065"/><circle r="1" fill="#C77B9B" fill-opacity=".16"/></pattern>
+    <clipPath id="agHero2PhotoClip"><path d="M914 89Q914 66 937 66H1070Q1093 66 1093 89V346Q1093 369 1070 369H937Q914 369 914 346Z"/></clipPath>
+    <clipPath id="agHero2FrameClip"><rect x="18" y="18" width="1164" height="484" rx="28"/></clipPath>
+    <filter id="agHero2Glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="agHero2Shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#080306" flood-opacity=".65"/></filter>
   </defs>
   <style>
-    .ag-label { font: 500 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 3px; }
-    .ag-name { font: 500 76px Georgia, 'Times New Roman', serif; letter-spacing: -2px; }
-    .ag-role { font: 500 17px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1.5px; }
-    .ag-motion { transform-box: fill-box; transform-origin: center; animation: agHeroOrbit 18s linear infinite; }
-    .ag-pulse { animation: agHeroPulse 4s ease-in-out infinite; }
-    @keyframes agHeroOrbit { to { transform: rotate(360deg); } }
-    @keyframes agHeroPulse { 0%, 100% { opacity: .42; } 50% { opacity: .9; } }
-    @media (prefers-reduced-motion: reduce) { .ag-motion, .ag-pulse { animation: none; } .ag-smil-motion { display: none; } }
+    .ag2-mono{font:500 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px}.ag2-name{font:500 76px Georgia,'Times New Roman',serif;letter-spacing:-2px}.ag2-role{font:600 15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:1.4px}.ag2-body{font:400 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.ag2-orbit{transform-box:fill-box;transform-origin:center;animation:ag2spin 20s linear infinite}.ag2-pulse{animation:ag2pulse 4s ease-in-out infinite}@keyframes ag2spin{to{transform:rotate(360deg)}}@keyframes ag2pulse{50%{opacity:.95}}@media(prefers-reduced-motion:reduce){.ag2-orbit,.ag2-pulse{animation:none}.ag2-smil{display:none}}
   </style>
+  <rect x="18" y="18" width="1164" height="484" rx="28" fill="url(#agHero2Bg)" stroke="#701A3D" stroke-width="1.5"/>
+  <g clip-path="url(#agHero2FrameClip)">
+    <rect x="18" y="18" width="1164" height="484" fill="url(#agHero2Grid)"/>
+    <rect width="1200" height="520" fill="url(#agHero2Aura)" class="ag2-pulse" opacity=".6"/>
+    <path d="M52 405C205 376 275 424 398 371S595 274 716 308 864 416 1136 294" fill="none" stroke="#701A3D" stroke-width="10" opacity=".38"/>
+    <path d="M52 405C205 376 275 424 398 371S595 274 716 308 864 416 1136 294" fill="none" stroke="url(#agHero2Line)" stroke-width="2" stroke-dasharray="10 13" opacity=".75"><animate attributeName="stroke-dashoffset" from="0" to="-46" dur="4s" repeatCount="indefinite"/></path>
+    <circle class="ag2-smil" r="4" fill="#F8F0F3" filter="url(#agHero2Glow)"><animateMotion dur="6s" repeatCount="indefinite" path="M52 405C205 376 275 424 398 371S595 274 716 308 864 416 1136 294"/></circle>
+  </g>
 
-  <rect x="18" y="18" width="1164" height="384" rx="26" fill="url(#agHeroBackground)" stroke="#701A3D" stroke-opacity="0.62"/>
-  <g clip-path="url(#agHeroFrameClip)">
-    <rect x="18" y="18" width="1164" height="384" fill="url(#agHeroGrid)"/>
-    <rect width="1200" height="420" fill="url(#agHeroGlow)" class="ag-pulse"/>
-    <g mask="url(#agHeroEdgeFade)" opacity="0.72">
-      <path d="M95 326C211 326 228 265 332 265S450 316 540 267 676 112 786 157s110 125 216 57 84-116 145-116" fill="none" stroke="#451126" stroke-width="8" stroke-linecap="round"/>
-      <path d="M95 326C211 326 228 265 332 265S450 316 540 267 676 112 786 157s110 125 216 57 84-116 145-116" fill="none" stroke="url(#agHeroSignal)" stroke-width="2" stroke-linecap="round" stroke-dasharray="12 12">
-        <animate attributeName="stroke-dashoffset" from="0" to="-48" dur="3.8s" repeatCount="indefinite"/>
-      </path>
-      <path class="ag-smil-motion" d="M95 326C211 326 228 265 332 265S450 316 540 267 676 112 786 157s110 125 216 57 84-116 145-116" fill="none" stroke="#F8F0F3" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 900" filter="url(#agHeroFineGlow)">
-        <animate attributeName="stroke-dashoffset" values="0;-900" dur="5.4s" repeatCount="indefinite"/>
-      </path>
-    </g>
+  <g transform="translate(70 58)">
+    <rect width="312" height="34" rx="17" fill="#190B12" stroke="#701A3D"/>
+    <circle cx="18" cy="17" r="4" fill="#C77B9B" filter="url(#agHero2Glow)"/>
+    <text x="32" y="22" fill="#E5B5C7" class="ag2-mono">~/aryan $ build --secure</text>
+  </g>
 
-    <g transform="translate(100 88)" opacity="0.85">
-      <circle r="31" fill="none" stroke="#C77B9B" stroke-opacity="0.38"/>
-      <circle r="21" fill="none" stroke="#E5B5C7" stroke-opacity="0.22" stroke-dasharray="3 7" class="ag-motion"/>
-      <circle r="4" fill="#E5B5C7" filter="url(#agHeroFineGlow)"/>
-      <path d="M-42 0H-26M26 0H42M0-42V-26M0 26V42" stroke="#C77B9B" stroke-opacity="0.5"/>
-    </g>
-    <g transform="translate(1092 316)" opacity="0.8">
-      <ellipse rx="52" ry="20" fill="none" stroke="#C77B9B" stroke-opacity="0.38" transform="rotate(-18)"/>
-      <ellipse rx="34" ry="13" fill="none" stroke="#E5B5C7" stroke-opacity="0.25" transform="rotate(28)"/>
-      <circle r="4" fill="#E5B5C7"/>
-    </g>
+  <g transform="translate(70 153)">
+    <text fill="#C77B9B" class="ag2-mono">SOFTWARE · SECURITY · INFRASTRUCTURE</text>
+    <text y="78" fill="#F8F0F3" class="ag2-name">Aryan Gupta.</text>
+    <rect y="100" width="650" height="2" fill="url(#agHero2Line)"/>
+    <text y="144" fill="#E5B5C7" class="ag2-role">SOFTWARE ENGINEER · SECURITY · APPLIED AI</text>
+    <text y="181" fill="#F8F0F3" class="ag2-body">Turning complex infrastructure into secure, useful systems.</text>
+  </g>
 
-    <g fill="#E5B5C7" class="ag-label">
-      <text x="66" y="61">SECURITY / SYSTEMS / SOFTWARE</text>
-      <text x="1134" y="61" text-anchor="end" fill="#C77B9B">BLR · IN</text>
-    </g>
-    <g transform="translate(600 191)" text-anchor="middle">
-      <text class="ag-label" y="-70" fill="#C77B9B">ENGINEERING SIGNAL  /  01</text>
-      <text class="ag-name" y="10" fill="#F8F0F3">Aryan Gupta</text>
-      <text class="ag-role" y="60" fill="#E5B5C7">SOFTWARE ENGINEER · SECURITY · INFRASTRUCTURE · APPLIED AI</text>
-      <rect x="-175" y="89" width="350" height="2" rx="1" fill="url(#agHeroUnderline)" filter="url(#agHeroSoftGlow)"/>
-      <rect class="ag-smil-motion" x="-175" y="88" width="62" height="4" rx="2" fill="#F8F0F3" filter="url(#agHeroFineGlow)">
-        <animate attributeName="x" values="-175;113;-175" dur="5s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-    <g class="ag-label" fill="#C77B9B" opacity="0.85">
-      <text x="66" y="374">WAF ANALYTICS · CONTAINER SECURITY · AUTONOMOUS SOC</text>
-      <text x="1134" y="374" text-anchor="end">BUILD WITH INTENT</text>
-    </g>
+  <g filter="url(#agHero2Shadow)">
+    <rect x="900" y="52" width="208" height="335" rx="28" fill="#190B12" stroke="#C77B9B" stroke-opacity=".7"/>
+    <image x="914" y="66" width="179" height="303" preserveAspectRatio="xMidYMid slice" xlink:href="aryan-profile.jpg" href="aryan-profile.jpg" clip-path="url(#agHero2PhotoClip)"/>
+    <path d="M885 117A126 126 0 0 1 1115 105" fill="none" stroke="#C77B9B" stroke-opacity=".46" stroke-dasharray="4 8" class="ag2-orbit"/>
+    <path d="M886 319A128 128 0 0 0 1119 332" fill="none" stroke="#E5B5C7" stroke-opacity=".3"/>
+    <circle cx="1110" cy="111" r="4" fill="#F8F0F3" filter="url(#agHero2Glow)"/>
+    <text x="1100" y="403" text-anchor="end" fill="#C77B9B" class="ag2-mono">BLR · IN</text>
+  </g>
+
+  <g transform="translate(70 442)">
+    <text fill="#C77B9B" class="ag2-mono">B.TECH CSE (CYBERSECURITY) · MIT BENGALURU</text>
+    <text x="526" fill="#E5B5C7" class="ag2-mono">ZEPTO · SECURITY ENGINEERING</text>
+    <text x="965" fill="#C77B9B" class="ag2-mono">OPEN TO BUILD</text>
   </g>
 </svg>
