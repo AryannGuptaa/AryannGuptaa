@@ -2,28 +2,28 @@
   <title id="agAboutTitle">About Aryan Gupta</title>
   <desc id="agAboutDesc">An editorial burgundy terminal describing Aryan's approach to security and software engineering.</desc>
   <defs>
-    <linearGradient id="agAboutBg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10070C"/><stop offset="1" stop-color="#230D17"/></linearGradient>
-    <linearGradient id="agAboutRule" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#701A3D"/><stop offset=".5" stop-color="#E5B5C7"/><stop offset="1" stop-color="#701A3D" stop-opacity="0"/></linearGradient>
-    <pattern id="agAboutGrid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#C77B9B" stroke-opacity=".05"/></pattern>
+    <linearGradient id="agAboutBg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171815"/><stop offset="1" stop-color="#20211D"/></linearGradient>
+    <linearGradient id="agAboutRule" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5F8B78"/><stop offset=".5" stop-color="#DCE5DF"/><stop offset="1" stop-color="#5F8B78" stop-opacity="0"/></linearGradient>
+    <pattern id="agAboutGrid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#9ABBAA" stroke-opacity=".05"/></pattern>
     <filter id="agAboutGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
   <style>.ab-mono{font:500 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;letter-spacing:2px}.ab-title{font:500 50px Georgia,'Times New Roman',serif}.ab-body{font:400 18px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}.ab-card{font:600 15px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.ab-cursor{animation:abBlink 1s steps(1) infinite}@keyframes abBlink{50%{opacity:0}}@media(prefers-reduced-motion:reduce){.ab-cursor{animation:none}}</style>
-  <rect x="1" y="1" width="1198" height="428" rx="24" fill="url(#agAboutBg)" stroke="#451126"/>
+  <rect x="1" y="1" width="1198" height="428" rx="24" fill="url(#agAboutBg)" stroke="#315C4C"/>
   <rect x="1" y="1" width="1198" height="428" rx="24" fill="url(#agAboutGrid)"/>
-  <g transform="translate(42 34)"><circle r="5" fill="#701A3D"/><circle cx="20" r="5" fill="#C77B9B" opacity=".7"/><circle cx="40" r="5" fill="#E5B5C7" opacity=".55"/><text x="1035" y="5" fill="#C77B9B" class="ab-mono">PROFILE.SYS</text></g>
+  <g transform="translate(42 34)"><circle r="5" fill="#5F8B78"/><circle cx="20" r="5" fill="#9ABBAA" opacity=".7"/><circle cx="40" r="5" fill="#DCE5DF" opacity=".55"/><text x="1035" y="5" fill="#9ABBAA" class="ab-mono">PROFILE.SYS</text></g>
   <g transform="translate(58 92)">
-    <text fill="#C77B9B" class="ab-mono">01 / ABOUT</text>
-    <text y="67" fill="#F8F0F3" class="ab-title">Hello, I’m Aryan.</text>
+    <text fill="#9ABBAA" class="ab-mono">01 / ABOUT</text>
+    <text y="67" fill="#F1EEE6" class="ab-title">Hello, I’m Aryan.</text>
     <rect y="89" width="540" height="2" fill="url(#agAboutRule)"/>
-    <text y="132" fill="#E5B5C7" class="ab-body">I build the systems most people never see—but rely on every day.</text>
-    <text y="166" fill="#C77B9B" class="ab-body">Real-time security visibility. Hardened infrastructure. Autonomous response.</text>
-    <text y="200" fill="#C77B9B" class="ab-body">Developer tools that make the secure path the obvious path.</text>
-    <text y="250" fill="#E5B5C7" class="ab-mono">aryan@portfolio:~$ solve --hard-problems --ship</text>
-    <rect class="ab-cursor" x="564" y="236" width="9" height="18" fill="#F8F0F3" filter="url(#agAboutGlow)"/>
+    <text y="132" fill="#DCE5DF" class="ab-body">I build the systems most people never see—but rely on every day.</text>
+    <text y="166" fill="#9ABBAA" class="ab-body">Real-time security visibility. Hardened infrastructure. Autonomous response.</text>
+    <text y="200" fill="#9ABBAA" class="ab-body">Developer tools that make the secure path the obvious path.</text>
+    <text y="250" fill="#DCE5DF" class="ab-mono">aryan@portfolio:~$ solve --hard-problems --ship</text>
+    <rect class="ab-cursor" x="564" y="236" width="9" height="18" fill="#F1EEE6" filter="url(#agAboutGlow)"/>
   </g>
   <g transform="translate(720 91)">
-    <rect width="418" height="78" rx="12" fill="#190B12" stroke="#451126"/><text x="22" y="29" fill="#C77B9B" class="ab-mono">SIGNAL 01</text><text x="22" y="56" fill="#F8F0F3" class="ab-card">SECURITY INFRASTRUCTURE</text><circle cx="384" cy="39" r="8" fill="#701A3D"/><circle cx="384" cy="39" r="3" fill="#E5B5C7"/>
-    <rect y="94" width="418" height="78" rx="12" fill="#190B12" stroke="#451126"/><text x="22" y="123" fill="#C77B9B" class="ab-mono">SIGNAL 02</text><text x="22" y="150" fill="#F8F0F3" class="ab-card">SECURE DEVELOPER TOOLS</text><path d="M372 133h24M384 121v24" stroke="#C77B9B"/>
-    <rect y="188" width="418" height="78" rx="12" fill="#190B12" stroke="#451126"/><text x="22" y="217" fill="#C77B9B" class="ab-mono">SIGNAL 03</text><text x="22" y="244" fill="#F8F0F3" class="ab-card">APPLIED AI &amp; AUTOMATION</text><path d="M370 229h28" stroke="#C77B9B"/><circle cx="376" cy="229" r="4" fill="#E5B5C7"/><circle cx="391" cy="229" r="4" fill="#701A3D"/>
+    <rect width="418" height="78" rx="12" fill="#20211D" stroke="#315C4C"/><text x="22" y="29" fill="#9ABBAA" class="ab-mono">SIGNAL 01</text><text x="22" y="56" fill="#F1EEE6" class="ab-card">SECURITY INFRASTRUCTURE</text><circle cx="384" cy="39" r="8" fill="#5F8B78"/><circle cx="384" cy="39" r="3" fill="#DCE5DF"/>
+    <rect y="94" width="418" height="78" rx="12" fill="#20211D" stroke="#315C4C"/><text x="22" y="123" fill="#9ABBAA" class="ab-mono">SIGNAL 02</text><text x="22" y="150" fill="#F1EEE6" class="ab-card">SECURE DEVELOPER TOOLS</text><path d="M372 133h24M384 121v24" stroke="#9ABBAA"/>
+    <rect y="188" width="418" height="78" rx="12" fill="#20211D" stroke="#315C4C"/><text x="22" y="217" fill="#9ABBAA" class="ab-mono">SIGNAL 03</text><text x="22" y="244" fill="#F1EEE6" class="ab-card">APPLIED AI &amp; AUTOMATION</text><path d="M370 229h28" stroke="#9ABBAA"/><circle cx="376" cy="229" r="4" fill="#DCE5DF"/><circle cx="391" cy="229" r="4" fill="#5F8B78"/>
   </g>
 </svg>

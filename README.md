@@ -1,27 +1,25 @@
 <div align="center">
   <img
-    src="./assets/aryan-hero.svg"
+    src="https://raw.githubusercontent.com/AryannGuptaa/AryannGuptaa/main/assets/aryan-hero.svg"
     width="100%"
     alt="Aryan Gupta — software engineer working across security, infrastructure, and applied AI"
   >
 </div>
 
-<p align="center">
-  <a href="https://aryannguptaa.vercel.app/"><strong>PORTFOLIO</strong></a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/aryannguptaa2005/"><strong>LINKEDIN</strong></a> &nbsp;·&nbsp;
-  <a href="mailto:aryan.gupta16105@gmail.com"><strong>EMAIL</strong></a>
-</p>
-
 <div align="center">
-  <img src="./assets/aryan-about.svg" width="100%" alt="About Aryan Gupta and his engineering focus">
+  <img
+    src="https://raw.githubusercontent.com/AryannGuptaa/AryannGuptaa/main/assets/aryan-about.svg"
+    width="100%"
+    alt="About Aryan Gupta and his engineering focus"
+  >
 </div>
 
-I’m a computer science student at **Manipal Institute of Technology Bengaluru** and a software engineer interested in
-the systems most people never see—but rely on every day. My work spans real-time WAF analytics, hardened container
-infrastructure, autonomous SOC workflows, secure developer tools, and AI-powered testing.
-
 <div align="center">
-  <img src="./assets/aryan-impact.svg" width="100%" alt="Verified engineering impact and selected projects">
+  <img
+    src="https://raw.githubusercontent.com/AryannGuptaa/AryannGuptaa/main/assets/aryan-impact.svg"
+    width="100%"
+    alt="Verified engineering impact, national hackathon recognition, and selected projects"
+  >
 </div>
 
 <details>
@@ -71,5 +69,9 @@ that reduced end-to-end verification time by **62%**.
 <sub>The graph above is generated from public GitHub contribution data. Private activity may not appear.</sub>
 
 <div align="center">
-  <img src="./assets/aryan-footer.svg" width="100%" alt="Build with intent">
+  <img
+    src="https://raw.githubusercontent.com/AryannGuptaa/AryannGuptaa/main/assets/aryan-footer.svg"
+    width="100%"
+    alt="Build with intent"
+  >
 </div>
