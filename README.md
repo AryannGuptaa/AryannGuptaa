@@ -22,17 +22,6 @@
   >
 </div>
 
-<details>
-<summary><strong>Project details and working links</strong></summary>
-
-| Project | What it does | Stack |
-|---|---|---|
-| **SecureIDE** | Security-native IDE with inline SAST, CVE auditing, secret detection, OWASP checks, and LLM-guided remediation. [View case study →](https://aryannguptaa.vercel.app/#projects) | Python · LLM systems · SAST · Plugin architecture |
-| **IronTest** | Autonomous QA and DevOps pipeline that turns Jira stories into web and mobile test suites. **Winner — Atos Srijan 2026 Hackathon.** [View case study →](https://aryannguptaa.vercel.app/#projects) | Python · CI/CD · Agentic AI · Test automation |
-| **Portfolio system** | Interactive portfolio with a security lab, visitor postcards, and an editorial developer profile. [Visit live →](https://aryannguptaa.vercel.app/) | React · Framer Motion · Supabase · WebGL |
-
-</details>
-
 ## Experience
 
 **Zepto — Software Engineer Intern, Security** · *May 2026 – Present*<br>
