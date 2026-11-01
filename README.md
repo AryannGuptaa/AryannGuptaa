@@ -57,14 +57,6 @@ that reduced end-to-end verification time by **62%**.
 
 <div align="center">
   <img
-    src="https://raw.githubusercontent.com/AryannGuptaa/AryannGuptaa/main/assets/github-contributions.svg"
-    width="100%"
-    alt="GitHub contribution heatmap for AryannGuptaa, including anonymized private activity"
-  >
-</div>
-
-<div align="center">
-  <img
     src="https://raw.githubusercontent.com/AryannGuptaa/AryannGuptaa/main/assets/aryan-footer.svg"
     width="100%"
     alt="Build with intent"
