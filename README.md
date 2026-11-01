@@ -60,9 +60,9 @@ that reduced end-to-end verification time by **62%**.
 
 <div align="center">
   <img
-    src="https://ghchart.rshah.org/701A3D/AryannGuptaa"
+    src="https://raw.githubusercontent.com/AryannGuptaa/AryannGuptaa/main/assets/github-contributions.svg"
     width="100%"
-    alt="Live GitHub contribution heatmap for AryannGuptaa"
+    alt="GitHub contribution heatmap for AryannGuptaa, including anonymized private activity"
   >
 </div>
 
