@@ -66,8 +66,6 @@ that reduced end-to-end verification time by **62%**.
   >
 </div>
 
-<sub>The graph above is generated from public GitHub contribution data. Private activity may not appear.</sub>
-
 <div align="center">
   <img
     src="https://raw.githubusercontent.com/AryannGuptaa/AryannGuptaa/main/assets/aryan-footer.svg"
